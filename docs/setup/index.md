@@ -19,13 +19,13 @@ We strongly recommend using **Crucible** as your server jar. Crucible is a maint
 [:octicons-download-16: Download Crucible v5.4](https://github.com/CrucibleMC/Crucible/releases/tag/v5.4){ .md-button .md-button--primary }
 
 !!! warning "Libraries Folder"
-    If you use Crucible, you **must** also replace your `libraries/` folder with the one provided in our server starter package. Without this, the server may fail to start or have compatibility issues.
+    If you use Crucible, you **must** also replace your `libraries/` folder with the one provided on their page. Without this, the server may fail to start or have compatibility issues.
 
 ### Setting Up Crucible
 
-1. Download `Crucible.jar` from the link above (or use the one in our starter package)
+1. Download `Crucible.jar` from the link above
 2. Place it in your server root directory
-3. Replace the `libraries/` folder with the one from the starter package
+3. Replace the `libraries/` folder with the one from the Crucible github page
 4. Create a start script:
 
     ```bash
@@ -86,15 +86,3 @@ After first startup, the mod generates config files in `config/NarutoDestination
 
 [:octicons-arrow-right-24: Configuration Reference](../config/index.md)
 
----
-
-## Starter Package
-
-We provide a ready-made starter package in the official Discord that includes:
-
-- `Crucible.jar` server jar
-- Pre-configured `libraries/` folder
-- Example server and plugin configs
-- CustomNPC+ animations, NPC examples, and textures
-
-Check the announcements channel in our Discord for the download link.
