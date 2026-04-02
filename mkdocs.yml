@@ -1,0 +1,87 @@
+site_name: Naruto Destination - Wiki
+site_description: Comprehensive wiki for Naruto Destination — server setup, commands, configuration, and addons
+site_url: https://yatzufusa.github.io/naruto-destination-wiki/
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - def_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/narutodestination
+
+nav:
+  - Home: index.md
+  - Server Setup Guide:
+    - Overview: setup/index.md
+    - Recommended Plugins: setup/plugins.md
+    - Recommended Mods: setup/mods.md
+  - Configuration:
+    - Overview: config/index.md
+    - General & Starter: config/general.md
+    - Stats & Chakra: config/stats-chakra.md
+    - Experience & Leveling: config/experience.md
+    - Combat & Enemies: config/combat.md
+    - DNA & Tokens: config/dna-tokens.md
+    - Freebuild & Spawns: config/freebuild.md
+    - Reset System: config/reset.md
+  - Commands:
+    - Overview: commands/index.md
+    - Info Card: commands/info-card.md
+    - Player Unlocks: commands/player-unlocks.md
+    - Player Stats: commands/player-stats.md
+    - Quality of Life: commands/quality-of-life.md
+    - Debugging Tools: commands/debugging.md
+    - Admin Commands: commands/admin.md
+  - "Addon: Villages":
+    - Overview: villages/index.md
+    - Player Commands: villages/player-commands.md
+    - Leadership: villages/leadership.md
+    - Territory: villages/territory.md
+    - Admin Commands: villages/admin-commands.md
+  - "Addon: Kage Vote":
+    - Overview: kagevote/index.md
+    - Voting: kagevote/voting.md
+    - Admin Commands: kagevote/admin-commands.md
+  - "Addon: XP Events":
+    - Overview: xpevents/index.md
+    - Commands: xpevents/commands.md
+  - FAQ: faq.md
+  - Terms of Use: terms.md
