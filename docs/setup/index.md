@@ -39,10 +39,12 @@ We strongly recommend using **Crucible** as your server jar. Crucible is a maint
 
 ## Step 2: Install Naruto Destination
 
-1. Download the latest version of the mod from the official Discord channel
+1. Download the latest version of the mod from the button below
 2. Place the `.jar` file into your server's `mods/` folder
 3. Start the server — the mod **automatically installs all dependencies** on first startup
 4. Place the same `.jar` into your client modpack's `mods/` folder
+
+[:octicons-download-16: Download Naruto Destination](https://www.curseforge.com/minecraft/mc-mods/naruto-destination){ .md-button .md-button--primary }
 
 !!! important "Version Matching"
     Only the **two major version numbers** need to match between server and client.
