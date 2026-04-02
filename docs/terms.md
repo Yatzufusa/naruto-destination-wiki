@@ -42,6 +42,7 @@ Additionally, the following may be sold without restriction:
 
 - **Purely cosmetic items** that have no effect whatsoever on gameplay, statistics, combat performance, or progression (e.g., Mangekyo Sharingan patterns)
 - Server access, ranks, or perks that are entirely unrelated to the Mod's gameplay mechanics
+- An XP Event started for the entire server over the NarutoDestinationXPEvent add-on mod
 
 No other Mod Content may be monetized under any circumstances. If a monetization practice is not explicitly listed in this Section 2.3, it is prohibited.
 
